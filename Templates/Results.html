@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outcome</title>
+</head>
+
+<body>
+    <h1>Here are the results:</h1>
+    <br>
+    <ul>
+        {% for key, value in extracted_data.items() %}
+        <li><strong>{{ key }}:</strong> {{ value }}</li>
+        {% endfor %}
+    </ul>
+    <h1>
+        Recommendations
+    </h1>
+    <br>
+    <p>still in progress...</p>
+</body>
+
+</html>

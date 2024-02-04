@@ -1,0 +1,69 @@
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1,
+p {
+    color: white;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.img-container {
+    background-image: url("../Images/green_background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the file input */
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+input[type="file"]:focus+.custom-file-upload {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
